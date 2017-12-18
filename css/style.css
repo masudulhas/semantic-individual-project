@@ -6,7 +6,7 @@ body {
 }
 
 nav {
-  position: fixed;
+    position: fixed;
     width: 100vw;
     background-color: #00316b;
 }
@@ -44,12 +44,12 @@ ul li a {
 }
 
 img{
-  width: 90vw;
+  width: 100vw;
   height: 80vh;
   margin-top: 60px;
 }
 .container{
-  width: 90vw;
+  width: 70vw;
   margin: 0px auto;
   /* position: relative; */
   text-align: center;
@@ -73,6 +73,7 @@ img{
 }
 section#experiences {
       display: inline-block;
+      width: 100%;
 }
 
 @media screen and (max-width:760px) {
