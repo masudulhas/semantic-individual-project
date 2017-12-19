@@ -3,6 +3,7 @@ body {
     padding: 0;
     background-color: #ecdbff;
     font-family: "Segoe UI";
+    overflow-x: hidden;
 }
 
 nav {
@@ -32,6 +33,9 @@ ul li a {
     text-decoration: none;
 }
 
+.nav .fa{
+  padding-right: 5px;
+}
 .toggle {
     width: 100vw;
     padding: 10px 20px;
@@ -49,7 +53,7 @@ img{
   margin-top: 60px;
 }
 .container{
-  width: 70vw;
+  width: 60vw;
   margin: 0px auto;
   /* position: relative; */
   text-align: center;
@@ -62,14 +66,24 @@ img{
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
+.intro h2{
+  color: #22A39F;
+}
+.lead{
+  opacity: 0.3;
+}
 .left{
   width: 50%;
+  text-align: justify;
   float: left;
+}
+#center{
+  text-align: center;
 }
 .right{
   width: 50%;
   float: right;
+  text-align: justify;
 }
 section#experiences {
       display: inline-block;
