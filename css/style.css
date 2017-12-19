@@ -89,6 +89,9 @@ section#experiences {
       display: inline-block;
       width: 100%;
 }
+.foot{
+  text-align: center;
+}
 
 @media screen and (max-width:760px) {
     .toggle {
