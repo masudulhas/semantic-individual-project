@@ -79,6 +79,10 @@ img{
 }
 #center{
   text-align: center;
+  line-height: .4;
+}
+.line{
+  line-height: .4;
 }
 .right{
   width: 50%;
