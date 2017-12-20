@@ -55,7 +55,6 @@ img{
 .container{
   width: 60vw;
   margin: 0px auto;
-  /* position: relative; */
   text-align: center;
 
 }
@@ -71,6 +70,7 @@ img{
 }
 .lead{
   color: grey;
+  font-weight:bold;
 }
 .left{
   width: 50%;
@@ -99,12 +99,7 @@ ol{
 ol li{
   list-style: none;
 }
-.form-element{
-			margin-bottom: 10px;
-		}
-/* h2.tagline1 {
-    margin-top: 300px;
-} */
+
 @media screen and (max-width:760px) {
     .toggle {
         display: block;
