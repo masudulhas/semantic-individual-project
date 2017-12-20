@@ -79,10 +79,10 @@ img{
 }
 #center{
   text-align: center;
-  line-height: .4;
+  line-height: 1;
 }
 .line{
-  line-height: .4;
+  line-height: 1;
 }
 .right{
   width: 50%;
@@ -104,9 +104,18 @@ ol li{
   list-style: none;
 }
 
-@media screen and (max-width:760px) {
+/* @media screen and (min-device-width:768px){
+    .toggle{
+        display: none;
+    }
+
+} */
+@media screen and (max-device-width:767px) {
     .toggle {
         display: block;
+    }
+    img{
+      height: 60vh;
     }
 
     ul {
