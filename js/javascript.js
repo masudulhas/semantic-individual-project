@@ -1,11 +1,10 @@
-/* smooth scroll*/
 $(document).ready(function()
 {
 	applyClickEvent();
 	mobile();
-  closeNav();
 });
 
+/* smooth scroll*/
 	function applyClickEvent()
 	{
 	$('a[href^="#"]').on('click', function(event) {
@@ -24,11 +23,4 @@ function mobile(){
     $('.menu').click(function(){
         $('ul').toggleClass('active');
     });
-    // closeNav();
-  }
-  /*closeNav*/
-  function closeNav(){
-    // $('.container').click(function(){
-  	// 		 $('.nav').toggle();
-    //    });
   }
