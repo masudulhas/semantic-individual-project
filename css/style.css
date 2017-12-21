@@ -126,6 +126,7 @@ ol li{
     ul li {
         display: block;
         text-align: center;
+        padding: 14px;
     }
 
     .active {
