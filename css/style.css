@@ -104,12 +104,6 @@ ol li{
   list-style: none;
 }
 
-/* @media screen and (min-device-width:768px){
-    .toggle{
-        display: none;
-    }
-
-} */
 @media screen and (max-width:767px) {
     .toggle {
         display: block;
