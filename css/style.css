@@ -122,9 +122,18 @@ ol li{
         text-align: center;
         padding: 14px;
     }
+    /* .hidden {
+      position: absolute;
+      left: -9999px;
+      top: -9999px;
+      visibility: hidden;
+    } */
 
     .active {
         display: block;
+    }
+    .inactive {
+      display: none;
     }
     .centered{
       display: none;
@@ -135,4 +144,4 @@ ol li{
     .right{
       width: 100%;
     }
-}﻿
+}

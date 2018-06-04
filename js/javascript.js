@@ -1,7 +1,7 @@
 $(document).ready(function()
 {
 	applyClickEvent();
-	mobile();
+    mobile();
 });
 
 /* smooth scroll*/
@@ -19,8 +19,12 @@ $(document).ready(function()
 }
 
 /*Mobile nav*/
-function mobile(){
-    $('.menu').click(function(){
-        $('ul').toggleClass('active');
-    });
-  }
+ function mobile(){
+     $('.menu').click(function () {
+         $('ul').toggle();
+     });
+     $('li').click(function () {
+         $('ul').toggle();
+     });
+    
+  } 
